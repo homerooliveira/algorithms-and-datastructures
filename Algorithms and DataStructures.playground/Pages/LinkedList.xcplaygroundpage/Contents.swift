@@ -12,7 +12,7 @@ final class Node {
 
 final class LinkedList {
     
-    var head: Node?
+    private(set) var head: Node?
     
     init(head: Node?) {
         self.head = head

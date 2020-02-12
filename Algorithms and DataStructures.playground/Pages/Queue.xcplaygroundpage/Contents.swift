@@ -3,9 +3,9 @@
 import Foundation
 import XCTest
 
-class Queue {
+final class Queue {
     
-    var storage: [Int]
+    private var storage: [Int]
     
     init(head: Int) {
         storage = [head]
