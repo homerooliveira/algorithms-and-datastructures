@@ -3,7 +3,7 @@
 import Foundation
 import XCTest
 
-class Node {
+final class Node {
     
     var value: Int
     var next: Node?
@@ -13,7 +13,7 @@ class Node {
     }
 }
 
-class LinkedList {
+final class LinkedList {
     
     var head: Node?
     
@@ -95,7 +95,7 @@ class LinkedList {
     }
 }
 
-class Stack {
+final class Stack {
     
     var ll: LinkedList
     

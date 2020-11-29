@@ -5,5 +5,6 @@
         <page name='Stack'/>
         <page name='Queue'/>
         <page name='BinarySearch'/>
+        <page name='BubbleSort'/>
     </pages>
 </playground>
